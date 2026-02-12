@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.png
+*.jpg
+.DS_Store
+.env
+node_modules/
+dist/
+build/
+.streamlit/
+!ui/.streamlit/

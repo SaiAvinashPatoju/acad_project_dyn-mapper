@@ -1,0 +1,112 @@
+{
+    "australia": {
+        "name": "Australia",
+        "description": "6 states/territories of Australia",
+        "regions": ["WA", "NT", "SA", "Q", "NSW", "V"],
+        "adjacencies": [
+            ["WA", "NT"],
+            ["WA", "SA"],
+            ["NT", "SA"],
+            ["NT", "Q"],
+            ["SA", "Q"],
+            ["SA", "NSW"],
+            ["SA", "V"],
+            ["Q", "NSW"],
+            ["NSW", "V"]
+        ]
+    },
+    "simple_4": {
+        "name": "Simple 4-Node",
+        "description": "Simple test map with 4 nodes",
+        "regions": ["A", "B", "C", "D"],
+        "adjacencies": [
+            ["A", "B"],
+            ["B", "C"],
+            ["C", "D"],
+            ["D", "A"],
+            ["A", "C"]
+        ]
+    },
+    "usa_simplified": {
+        "name": "USA Simplified",
+        "description": "10 western US states",
+        "regions": ["WA", "OR", "CA", "NV", "ID", "UT", "AZ", "MT", "WY", "CO"],
+        "adjacencies": [
+            ["WA", "OR"],
+            ["WA", "ID"],
+            ["OR", "CA"],
+            ["OR", "NV"],
+            ["OR", "ID"],
+            ["CA", "NV"],
+            ["CA", "AZ"],
+            ["NV", "UT"],
+            ["NV", "AZ"],
+            ["NV", "ID"],
+            ["ID", "MT"],
+            ["ID", "WY"],
+            ["ID", "UT"],
+            ["UT", "WY"],
+            ["UT", "CO"],
+            ["UT", "AZ"],
+            ["AZ", "CO"],
+            ["MT", "WY"],
+            ["WY", "CO"]
+        ]
+    },
+    "europe_simplified": {
+        "name": "Europe Simplified",
+        "description": "15 European countries",
+        "regions": ["FR", "ES", "PT", "DE", "IT", "CH", "AT", "BE", "NL", "PL", "CZ", "SK", "HU", "SI", "HR"],
+        "adjacencies": [
+            ["FR", "ES"],
+            ["FR", "BE"],
+            ["FR", "DE"],
+            ["FR", "CH"],
+            ["FR", "IT"],
+            ["ES", "PT"],
+            ["DE", "NL"],
+            ["DE", "BE"],
+            ["DE", "CH"],
+            ["DE", "AT"],
+            ["DE", "PL"],
+            ["DE", "CZ"],
+            ["IT", "CH"],
+            ["IT", "AT"],
+            ["IT", "SI"],
+            ["CH", "AT"],
+            ["AT", "CZ"],
+            ["AT", "SK"],
+            ["AT", "HU"],
+            ["AT", "SI"],
+            ["BE", "NL"],
+            ["PL", "CZ"],
+            ["PL", "SK"],
+            ["CZ", "SK"],
+            ["SK", "HU"],
+            ["HU", "SI"],
+            ["HU", "HR"],
+            ["SI", "HR"]
+        ]
+    },
+    "large_grid": {
+        "name": "Large Grid (5x5)",
+        "description": "25-node grid for performance testing",
+        "regions": ["R0C0", "R0C1", "R0C2", "R0C3", "R0C4",
+                   "R1C0", "R1C1", "R1C2", "R1C3", "R1C4",
+                   "R2C0", "R2C1", "R2C2", "R2C3", "R2C4",
+                   "R3C0", "R3C1", "R3C2", "R3C3", "R3C4",
+                   "R4C0", "R4C1", "R4C2", "R4C3", "R4C4"],
+        "adjacencies": [
+            ["R0C0", "R0C1"], ["R0C1", "R0C2"], ["R0C2", "R0C3"], ["R0C3", "R0C4"],
+            ["R1C0", "R1C1"], ["R1C1", "R1C2"], ["R1C2", "R1C3"], ["R1C3", "R1C4"],
+            ["R2C0", "R2C1"], ["R2C1", "R2C2"], ["R2C2", "R2C3"], ["R2C3", "R2C4"],
+            ["R3C0", "R3C1"], ["R3C1", "R3C2"], ["R3C2", "R3C3"], ["R3C3", "R3C4"],
+            ["R4C0", "R4C1"], ["R4C1", "R4C2"], ["R4C2", "R4C3"], ["R4C3", "R4C4"],
+            ["R0C0", "R1C0"], ["R1C0", "R2C0"], ["R2C0", "R3C0"], ["R3C0", "R4C0"],
+            ["R0C1", "R1C1"], ["R1C1", "R2C1"], ["R2C1", "R3C1"], ["R3C1", "R4C1"],
+            ["R0C2", "R1C2"], ["R1C2", "R2C2"], ["R2C2", "R3C2"], ["R3C2", "R4C2"],
+            ["R0C3", "R1C3"], ["R1C3", "R2C3"], ["R2C3", "R3C3"], ["R3C3", "R4C3"],
+            ["R0C4", "R1C4"], ["R1C4", "R2C4"], ["R2C4", "R3C4"], ["R3C4", "R4C4"]
+        ]
+    }
+}
