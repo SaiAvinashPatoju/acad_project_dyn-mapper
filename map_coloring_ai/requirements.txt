@@ -1,5 +1,0 @@
-networkx>=2.8
-matplotlib>=3.5
-streamlit>=1.20
-pandas>=1.4
-tabulate>=0.8.9
